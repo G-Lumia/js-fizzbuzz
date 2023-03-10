@@ -1,6 +1,12 @@
+
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 3%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%); 
+}
+
 .inner-square{
     background-color: white;
-    border: 1px solid black;
+    border-radius: 25%;
     height: calc((100% / 10 ) - 20px);
     width: calc((100% / 10 ) - 20px);
     margin: 10px;
@@ -13,19 +19,19 @@
 .square{
     width:1000px;
     height: 1000px;
-    border:1px solid black;
 }
 
 .fizz{
-    background-color: yellow;
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(162,146,146,1) 100%);
 }
 
 .buzz{
-    background-color: red;
-    color:white;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(162,146,146,1) 100%); 
 }
 
 .fizz-buzz{
-    background-color: green;
-    color:white;
+    background: rgb(18,255,0);
+    background: linear-gradient(90deg, rgba(18,255,0,1) 0%, rgba(162,146,146,1) 100%); 
 }

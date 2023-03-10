@@ -7,7 +7,7 @@ for(let i = 1; i <= 100 ; i++)
 {
     if(((i % 3) == 0) && ((i % 5) == 0))
         {
-            document.getElementById("fizzBuzz").innerHTML += `<div class="inner-square fizz-buzz"> FIZZ BUZZ </div>`;
+            document.getElementById("fizzBuzz").innerHTML += `<div class="inner-square fizz-buzz"> FIZZ <br> BUZZ </div>`;
         }
         else
         {
@@ -19,7 +19,7 @@ for(let i = 1; i <= 100 ; i++)
             {
                 document.getElementById("fizzBuzz").innerHTML += `<div class="inner-square buzz"> BUZZ </div>`;
             }
-            if(((i % 3) != 0) && ((i% 5) != 0))
+            if(((i % 3) != 0) && ((i % 5) != 0))
             {
                 document.getElementById("fizzBuzz").innerHTML += `<div class="inner-square"> ${i} </div>`;
             }
