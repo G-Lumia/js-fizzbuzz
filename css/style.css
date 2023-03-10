@@ -1,0 +1,31 @@
+.inner-square{
+    background-color: white;
+    border: 1px solid black;
+    height: calc((100% / 10 ) - 20px);
+    width: calc((100% / 10 ) - 20px);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.square{
+    width:1000px;
+    height: 1000px;
+    border:1px solid black;
+}
+
+.fizz{
+    background-color: yellow;
+}
+
+.buzz{
+    background-color: red;
+    color:white;
+}
+
+.fizz-buzz{
+    background-color: green;
+    color:white;
+}
